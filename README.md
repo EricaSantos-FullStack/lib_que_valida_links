@@ -19,11 +19,12 @@ Você sabia que com a ajuda do Node.js podemos desenvolver um sistema que pode v
 
 #### 🤓 O que aprendi durante o projeto?
 
-- Escrita em Regex
+- Escrita em Regex - utilizando [regex101](https://regex101.com/)
 - CLI
-- Flags
-- Shebang
+- [Flags](https://docs.npmjs.com/cli/v7/commands/npm-run-script#description)
+- [Shebang](https://meleu.sh/shebang/)
 - Tratar erros no terminal
+- Como publicar uma lib no [npm](https://www.npmjs.com/)
 
 #### 🖥 Exemplo de output:
 ![terminal1](https://github.com/EricaSantos-FullStack/lib_validade_links/assets/71906862/e045d348-05af-4814-9aa6-503239bb5a44)
