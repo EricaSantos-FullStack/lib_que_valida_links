@@ -1,25 +1,42 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "lib_que_valida_links",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Ao invés de caçar cada link quebrado, que tal automatizar esse processo?",
+  "main": "./cli.js",
+  "bin": {
+    "<lib_que_valida_links>": "./cli.js"
+  },
+  "preferGlobal": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./test",
     "cli": "node ./src/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+    "url": "git+https://github.com/EricaSantos-FullStack/lib_que_valida_links"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "URL",
+    "validation",
+    "nodejs",
+    "blog",
+    "website",
+    "markdown",
+    "cli"
+  ],
+  "author": "Erica S. Francisco",
+  "email": "ericasantosfrancisco@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "url": "https://github.com/EricaSantos-FullStack/lib_que_valida_links/issues"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "https://github.com/EricaSantos-FullStack",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "5.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
