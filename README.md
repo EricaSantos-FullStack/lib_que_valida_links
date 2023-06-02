@@ -7,17 +7,17 @@ Agora imagina que o autor em questão é você. Seu publico está frustrado e vo
 Ao invés de caçar cada link quebrado, que tal automatizar esse processo?
 Você sabia que com a ajuda do Node.js podemos desenvolver um sistema que pode validar todos os links de um blog ou website? E melhor ainda, esse sistema já está pronto, basta instalar essa biblioteca no seu projeto e pronto, seus links serão checados!
 
-Com essa lib você pode:
+#### 📌 Com essa lib você pode:
 
 - ver todos os nomes e acessar os links
 - ver o nome, link e status code
 
-Ferramentas usadas:
+#### 🛠️ Ferramentas usadas:
 
 - biblioteca Chalk: para ver os links e textos do terminal em outras cores. Facilitando a leitura.
 - Node.js v18
 
-O que aprendi durante o projeto?
+#### 🤓 O que aprendi durante o projeto?
 
 - Escrita em Regex
 - CLI
@@ -25,7 +25,10 @@ O que aprendi durante o projeto?
 - Shebang
 - Tratar erros no terminal
 
-Para validar um link use os comandos CLI
+#### 🖥 Exemplo de output:
+![terminal1](https://github.com/EricaSantos-FullStack/lib_validade_links/assets/71906862/e045d348-05af-4814-9aa6-503239bb5a44)
+
+#### Para validar um link use os comandos CLI
 
 1. Comando para instalar a lib:
 ```
