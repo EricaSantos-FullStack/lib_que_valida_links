@@ -28,12 +28,13 @@ O que aprendi durante o projeto?
 Para validar um link use os comandos CLI
 
 1. Comando para instalar a lib:
+```
    npm install -g <nome-lib>
+```
 
 2. Comando para rodar o projeto:
-
 ```
 npm run cli ./arquivos/ valida
 ```
 
-Na lib tem o exemplo de 2 arquivos em Markdown para teste.
+✅ Na lib tem o exemplo de 2 arquivos em Markdown para teste.
