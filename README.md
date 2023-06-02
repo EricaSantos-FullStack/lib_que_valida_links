@@ -27,18 +27,58 @@ Você sabia que com a ajuda do Node.js podemos desenvolver um sistema que pode v
 - Como publicar uma lib no [npm](https://www.npmjs.com/)
 
 #### 🖥 Exemplo de output:
-![terminal1](https://github.com/EricaSantos-FullStack/lib_validade_links/assets/71906862/e045d348-05af-4814-9aa6-503239bb5a44)
+
+```bash
+lista validada texto.md [
+  {
+    FileList: 'https://developer.mozilla.org/pt-BR/docs/Web/API/FileList',
+    status: '200 - OK'
+  },
+  {
+    DataTransfer: 'https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer',
+    status: '200 - OK'
+  },
+  {
+    HTMLCanvasElement: 'https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLCanvasElement',
+    status: '200 - OK'
+  },
+  {
+    'Implementation notes': 'https://developer.mozilla.org/pt-BR/docs/Web/API/File#implementation_notes',
+    status: '200 - OK'
+  },
+  {
+    'Teste de retorno 400': 'https://httpstat.us/404',
+    status: '404 - Not Found'
+  },
+  {
+    'gatinho salsicha': 'http://gatinhosalsicha.com.br/',
+    status: 'link não encontrado'
+  }
+]
+```
 
 #### Para validar um link use os comandos CLI
 
 1. Comando para instalar a lib:
+
 ```
-   npm install -g <nome-lib>
+   npm install -g lib_que_valida_links
+```
+
+ou
+
+```
+   npm i lib_que_valida_links
 ```
 
 2. Comando para rodar o projeto:
+
 ```
 npm run cli ./arquivos/ valida
 ```
 
 ✅ Na lib tem o exemplo de 2 arquivos em Markdown para teste.
+
+#### ❣ Link da lib na npm ❣
+
+https://www.npmjs.com/package/lib_que_valida_links

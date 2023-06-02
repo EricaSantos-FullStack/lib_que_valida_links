@@ -1,6 +1,6 @@
 {
   "name": "lib_que_valida_links",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ao invés de caçar cada link quebrado, que tal automatizar esse processo?",
   "main": "./cli.js",
   "bin": {
