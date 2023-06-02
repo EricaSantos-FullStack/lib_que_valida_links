@@ -19,8 +19,8 @@ Você sabia que com a ajuda do Node.js podemos desenvolver um sistema que pode v
 
 #### 🤓 O que aprendi durante o projeto?
 
-- Escrita em Regex - utilizando [regex101](https://regex101.com/)
-- CLI
+- Escrita em [Regex](https://www.mundojs.com.br/2018/06/14/como-usar-o-regex-no-javascript/) - utilizando [regex101](https://regex101.com/)
+- CLI (Interface de Linha de Comando)
 - [Flags](https://docs.npmjs.com/cli/v7/commands/npm-run-script#description)
 - [Shebang](https://meleu.sh/shebang/)
 - Tratar erros no terminal
