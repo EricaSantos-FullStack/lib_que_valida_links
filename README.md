@@ -15,6 +15,7 @@ Você sabia que com a ajuda do Node.js podemos desenvolver um sistema que pode v
 #### 🛠️ Ferramentas usadas:
 
 - biblioteca Chalk: para ver os links e textos do terminal em outras cores. Facilitando a leitura.
+- biblioteca fs
 - Node.js v18
 
 #### 🤓 O que aprendi durante o projeto?
