@@ -89,9 +89,9 @@ https://www.npmjs.com/package/lib_que_valida_links
 
 Sim!, o controle de versão do NPM (node package manager) segue um controle de versões semânticos, portanto, esse controle de versões tem 3 partes:
 
-1 - Patch . Isso é incrementado quando é feita uma correção de bug que não quebra o código de consumo.
-2 - Minor . Isso é incrementado quando são adicionados recursos que não quebram o código de consumo.
-3 - Major . Isso é incrementado quando mudanças significativas são feitas.
+1. Patch . Isso é incrementado quando é feita uma correção de bug que não quebra o código de consumo.
+2. Minor . Isso é incrementado quando são adicionados recursos que não quebram o código de consumo.
+3. Major . Isso é incrementado quando mudanças significativas são feitas.
 
-Fiz 2 alterações Patch</br>
+Fiz 2 alterações na minha lib</br>
 Para estudar usei esse artigo: [Major.Minor.Patch](https://medium.com/fiverr-engineering/major-minor-patch-a5298e2e1798)
